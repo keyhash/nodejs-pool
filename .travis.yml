@@ -1,0 +1,9 @@
+deploy:
+  provider: bintray
+  file: bintray-descriptor.json
+  user: adaxi
+  key:
+    secure: pdOC+rCRqfuKiBMnv5ZtHV7hGSJSsTLMyaQOQetcE1qSQh9leN9ZMbSfWSdP7hCsJ2aSOCPPagKlMkqqTOgviVccwCYpgeUU+moXLwLSjc5Z/98KDTbcQHP0HgrpCEujHbVgOOSz7Hwy1whH3e1EKe2J3YgvkpjT3q8dvb+1ZyAPnfht7zNOd5nAt4aZWl2SKdTbjZSB2vWCbSJvEb4If8zw5PtD4fO714Asc7vBiT8HFmlLXmgHT/3COaAVnkjyffGSfloKmpY5qEGhb4ARlKulYE3pnEWEOzaX6bT+jYCw0/gOzANmNRMkB5/pv9gUffzqO1Xn3jWa1GIB8buPwv/lQsnNQdWt8nucIL31wqzStGZHeu+HpR95uV9ycadSYfXg/IVahfPBgEuM71JP2FdMN73XYObw9y6paiZH+7jM+vjS5kg+loA6ggKYR19Fp1zEy3BRY90EVhyPOFxTGdmNmbw9GN5FpQdNG16Rmqgr/dqu6nxo93r8X+7cIQvyzvAkkjla/5z9aNb26aBKzI5pCiQ7SyJTXTGZbmxJHt38kWTCJaBcXuGEFvpnSqvQYmNq9kUGGwQV+ol97nS/ERCk61THN8wgzHoU1oxMWNDu41M23oz985bKpj3ruOYcNKCV5Oaec3YApniUPPEs6Y5FD/wUVg/+SeQYqmVlH+M=
+  dry-run: false
+  on:
+    all_branches: true
